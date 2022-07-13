@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="Cleared repo" />
+    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="Cleared repo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +82,7 @@
       <workItem from="1657714943328" duration="2433000" />
       <workItem from="1657717392528" duration="3016000" />
       <workItem from="1657725117853" duration="34000" />
+      <workItem from="1657725173706" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing starting project">
       <created>1657713816572</created>
