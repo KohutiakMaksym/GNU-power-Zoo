@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="testing ejs files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,9 @@
       <workItem from="1657727083265" duration="561000" />
       <workItem from="1657727662114" duration="48000" />
       <workItem from="1657727870397" duration="159000" />
-      <workItem from="1657728042836" duration="300000" />
+      <workItem from="1657728042836" duration="942000" />
+      <workItem from="1657735675430" duration="34000" />
+      <workItem from="1657735761663" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing starting project">
       <created>1657713816572</created>
