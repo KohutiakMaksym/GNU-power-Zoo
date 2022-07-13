@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
+    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="testing ejs files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <workItem from="1657727083265" duration="561000" />
       <workItem from="1657727662114" duration="48000" />
       <workItem from="1657727870397" duration="159000" />
-      <workItem from="1657728042836" duration="239000" />
+      <workItem from="1657728042836" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing starting project">
       <created>1657713816572</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657727052229</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="testing ejs files">
+      <created>1657728309703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657728309703</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +200,7 @@
     <MESSAGE value="Zones started" />
     <MESSAGE value="Cleared repo" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="testing ejs files" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing ejs files" />
   </component>
 </project>
