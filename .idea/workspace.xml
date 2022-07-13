@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="Cleared repo" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7885087e-531a-4489-bb9e-2ec7da555298" />
+        <option name="url" value="https://github.com/KohutiakMaksym/GNU_power.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bt7pB14MWx5THyNOX6zxZ9BUJl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GNU_power/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="" />
+      <created>1657713708831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657713708831</updated>
+      <workItem from="1657713712929" duration="1151000" />
+      <workItem from="1657714943328" duration="2433000" />
+      <workItem from="1657717392528" duration="3016000" />
+      <workItem from="1657725117853" duration="34000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initializing starting project">
+      <created>1657713816572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713816572</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initializing starting project">
+      <created>1657713908830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713908830</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialized bootstrap">
+      <created>1657716935722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657716935722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialized bootstrap">
+      <created>1657723537213</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657723537213</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Zones started">
+      <created>1657723825323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657723825323</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleared repo">
+      <created>1657724660322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657724660322</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cleared repo">
+      <created>1657724744049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657724744049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initializing starting project" />
+    <MESSAGE value="Initialized bootstrap" />
+    <MESSAGE value="Zones started" />
+    <MESSAGE value="Cleared repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleared repo" />
+  </component>
+</project>
