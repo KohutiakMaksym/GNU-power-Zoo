@@ -1,5 +1,5 @@
-// Set global variable
-var watchID;
+// Set global letiable
+let watchID;
 
 function showPosition() {
     if(navigator.geolocation) {
@@ -13,18 +13,18 @@ function successCallback(position) {
     if(prevLat != position.coords.latitude || prevLong != position.coords.longitude) {
         
         // Set previous location
-        var prevLat = position.coords.latitude;
-        var prevLong = position.coords.longitude;
+        let prevLat = position.coords.latitude;
+        let prevLong = position.coords.longitude;
         
         // Get current position
-        var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+        let positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
         document.getElementById("result").innerHTML = positionInfo;
         
     }
     
 }
 function startWatch() {
-    var result = document.getElementById("result");
+    let result = document.getElementById("result");
     
         if(watchID) {
             navigator.geolocation.clearWatch(watchID);
