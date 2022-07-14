@@ -35,5 +35,10 @@ function startWatch() {
         document.get
 }
 
-// Initialise the whole system (above)
-// window.onload = startWatch;
+function launchScanner() {
+    document.querySelector('#scanner').classList.remove('d-none');
+}
+
+function hideScanner() {
+    document.querySelector('#scanner').classList.add('d-none');
+}

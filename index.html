@@ -37,23 +37,22 @@
 </header>
 
 <main>
+
+    <div class="d-flex justify-content-center my-5">
+        <a class="button" onclick="launchScanner()">Scan QR code</a>
+    </div>
+
     <div id="map">
         <p class="text-white text-center m-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi commodi et, eveniet harum in iusto maiores
             mollitia quibusdam vero! A accusamus, autem cupiditate doloremque dolorum molestias sapiente sunt unde?</p>
         <img class="d-block mx-auto w-100" src="images/mapa_final-1024x543.jpeg" alt="">
     </div>
 </main>
-<div class="d-flex justify-content-center mt-4">
-    <a class="button">Scan QR code</a>
-</div>
 
-<div class="row">
-    <div class="col">
-        <div style="width:500px;" id="reader"></div>
-    </div>
-    <div class="col" style="padding:30px;">
-        <h4>SCAN RESULT</h4>
-        <div id="result">Result Here</div>
+<div id="scanner" class="d-flex justify-content-center d-none">
+    <div id="reader"></div>
+    <div class="d-flex justify-content-center my-4">
+        <a class="button" onclick="hideScanner()">Hide scanner</a>
     </div>
 </div>
 
@@ -70,14 +69,6 @@
 </footer>
 
 <style>
-    .result{
-        background-color: green;
-        color:#fff;
-        padding:20px;
-    }
-    .row{
-        display:flex;
-    }
     footer img{
         width: 25vw;
         height: 25vw;

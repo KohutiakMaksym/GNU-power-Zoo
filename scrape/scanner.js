@@ -2,8 +2,9 @@ function onScanSuccess(qrCodeMessage) {
     console.log(qrCodeMessage);
 }
 function onScanError(errorMessage) {
-    //handle scan error
+    //alert('Error ocurred');
 }
 let html5QrcodeScanner = new Html5QrcodeScanner(
     "reader", { fps: 10, qrbox: 250 });
 html5QrcodeScanner.render(onScanSuccess, onScanError);
+
