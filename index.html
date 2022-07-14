@@ -47,6 +47,16 @@
     <a class="button">Scan QR code</a>
 </div>
 
+<div class="row">
+    <div class="col">
+        <div style="width:500px;" id="reader"></div>
+    </div>
+    <div class="col" style="padding:30px;">
+        <h4>SCAN RESULT</h4>
+        <div id="result">Result Here</div>
+    </div>
+</div>
+
 <footer>
     <div class="" style="overflow: auto; white-space: nowrap">
         <img src="images/lion.jpg" alt="">
@@ -60,6 +70,14 @@
 </footer>
 
 <style>
+    .result{
+        background-color: green;
+        color:#fff;
+        padding:20px;
+    }
+    .row{
+        display:flex;
+    }
     footer img{
         width: 25vw;
         height: 25vw;
@@ -114,6 +132,8 @@
         top: 1px;
     }
 </style>
+<script src="scrape/html5-qrcode.min.js"></script>
+<script src="scrape/scanner.js"></script>
 <script src="scrape/index.js"></script>
 </body>
 </html>
