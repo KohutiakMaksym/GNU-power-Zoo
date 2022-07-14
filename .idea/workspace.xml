@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="Styling navigation">
+    <list default="true" id="7730122d-179f-4f8e-ae7c-efb058510108" name="Changes" comment="Finished Styling navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,8 @@
       <workItem from="1657741448857" duration="268000" />
       <workItem from="1657741751760" duration="252000" />
       <workItem from="1657742041327" duration="1109000" />
-      <workItem from="1657743180484" duration="4171000" />
+      <workItem from="1657743180484" duration="4539000" />
+      <workItem from="1657787551043" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing starting project">
       <created>1657713816572</created>
@@ -188,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657783786205</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished Styling navigation">
+      <created>1657787172297</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657787172297</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Finished Styling navigation">
+      <created>1657787448766</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657787448767</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +247,7 @@
     <MESSAGE value="Initing project" />
     <MESSAGE value="finished navigation" />
     <MESSAGE value="Styling navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling navigation" />
+    <MESSAGE value="Finished Styling navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Styling navigation" />
   </component>
 </project>
