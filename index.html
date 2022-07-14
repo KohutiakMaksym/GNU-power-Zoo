@@ -19,7 +19,7 @@
                         <a class="nav-link fs-4" href="https://orientarium.lodz.pl/">Orientarium Lodz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4" onclick="">Scan QR</a>
+                        <a id="scanQR" class="nav-link fs-4" href="#">Scan QR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-4" href="#"></a>
@@ -49,7 +49,7 @@
     </div>
 </main>
 
-<div id="scanner" class="d-flex justify-content-center d-none">
+<div id="scanner" class="d-flex justify-content-center flex-column d-none">
     <div id="reader"></div>
     <div class="d-flex justify-content-center my-4">
         <a class="button" onclick="hideScanner()">Hide scanner</a>
