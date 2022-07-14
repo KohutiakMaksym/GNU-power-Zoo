@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></head>
-<body>
+<body onload="startWatch()">
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -35,77 +35,63 @@
             </div>
         </div>
     </nav>
+    <script>
+        // Set global variable
+        var watchID;
+    
+        function showPosition() {
+            if(navigator.geolocation) {
+                watchID = navigator.geolocation.watchPosition(successCallback);
+            } else {
+                alert("Sorry, your browser does not support HTML5 geolocation.");
+            }
+        }
+        function successCallback(position) {
+            // Check position has been changed or not before doing anything
+            if(prevLat != position.coords.latitude || prevLong != position.coords.longitude) {
+                
+                // Set previous location
+                var prevLat = position.coords.latitude;
+                var prevLong = position.coords.longitude;
+                
+                // Get current position
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+                
+            }
+            
+        }
+        function startWatch() {
+            var result = document.getElementById("result");
+            
+                if(watchID) {
+                    navigator.geolocation.clearWatch(watchID);
+                    watchID = false;
+                } else {
+                    showPosition();
+                }
+                document.get
+        }
+        
+        // Initialise the whole system (above)
+        // window.onload = startWatch;
+    </script>
 </header>
 
 <main>
-    <div id="map"><img src="" alt=""></div>
+    <div
+    id="map">
+        <img style="display: block;
+        margin-left: auto;
+        margin-right: auto; width: 1024px; height: 543px; "  src="/images/mapa_final-1024x543.jpeg" alt="">
 
-    <!-- <p>Click the button to get your coordinates.</p>
+    </div>
 
-    <button onclick="getLocation()">Try It</button>
     
-    <p id="demo"></p> -->
-    
-    <button type="button" id="toggleWatchBtn">Start Watching</button>
     <div id="result">
         <!--Position information will be inserted here-->
     </div>   
-
-<!-- watch pos ------------------------------------------------------------------->
-
-<script>
-    // Set global variable
-    var watchID;
-
-    function showPosition() {
-        if(navigator.geolocation) {
-            watchID = navigator.geolocation.watchPosition(successCallback);
-        } else {
-            alert("Sorry, your browser does not support HTML5 geolocation.");
-        }
-    }
-    function successCallback(position) {
-        toggleWatchBtn.innerHTML = "Stop Watching";
-        
-        // Check position has been changed or not before doing anything
-        if(prevLat != position.coords.latitude || prevLong != position.coords.longitude) {
-            
-            // Set previous location
-            var prevLat = position.coords.latitude;
-            var prevLong = position.coords.longitude;
-            
-            // Get current position
-            var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
-            document.getElementById("result").innerHTML = positionInfo;
-            
-        }
-        
-    }
-    function startWatch() {
-        var result = document.getElementById("result");
-        
-        var toggleWatchBtn = document.getElementById("toggleWatchBtn");
-        
-        toggleWatchBtn.onclick = function() {
-            if(watchID) {
-                toggleWatchBtn.innerHTML = "Start Watching";
-                navigator.geolocation.clearWatch(watchID);
-                watchID = false;
-            } else {
-                toggleWatchBtn.innerHTML = "Aquiring Geo Location...";
-                showPosition();
-            }
-        }
-    }
-    
-    // Initialise the whole system (above)
-    window.onload = startWatch;
-</script>
-
-<!--  ------------------------------------------------------------------->
-    </script>
-
-  </main>
+</main>
 
 <script src="scrape/main.js"></script>
 </body>
