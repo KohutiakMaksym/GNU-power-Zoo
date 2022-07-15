@@ -1,5 +1,8 @@
 // Set global variable
 var watchID;
+document.querySelectorAll('.animals').forEach((e) => {
+    e.addEventListener('click', launchScanner);
+});
 
 function showPosition() {
     if(navigator.geolocation) {
@@ -46,3 +49,4 @@ function launchScanner() {
 function hideScanner() {
     document.querySelector('#scanner').classList.add('d-none');
 }
+
