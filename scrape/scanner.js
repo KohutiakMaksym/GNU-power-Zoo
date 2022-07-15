@@ -3,7 +3,6 @@ function onScanSuccess(qrCodeMessage) {
     if (qrCodeMessage === 'Lion'){
         alert('Congrats, you\'ve unlocked the Lion!');
         document.querySelector('#lion').classList.remove('inactive');
-        hideScanner();
     }
     if (qrCodeMessage === 'Camel'){
         alert('Congrats, you\'ve unlocked the Camel!');
