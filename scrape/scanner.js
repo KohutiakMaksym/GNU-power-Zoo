@@ -10,6 +10,5 @@ function onScanError(errorMessage) {
     //alert('Error ocurred');
 }
 let html5QrcodeScanner = new Html5QrcodeScanner(
-    "reader", { fps: 10, qrbox: 300 });
+    "reader", { fps: 30, qrbox: 450 });
 html5QrcodeScanner.render(onScanSuccess, onScanError);
-
