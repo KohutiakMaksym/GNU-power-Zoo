@@ -45,17 +45,14 @@
     <div id="map">
         <p class="text-white text-center m-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi commodi et, eveniet harum in iusto maiores
             mollitia quibusdam vero! A accusamus, autem cupiditate doloremque dolorum molestias sapiente sunt unde?</p>
-        <img class="d-block mx-auto w-100" src="images/map.png" alt="">
-        
-        
-        <div class="animals">
-            <img class="animal" style="top: 52vw; left: 80vw;" src="images/Turkey.png" alt="">
+        <img class="d-block mx-auto w-100" src="images/new_map.png" alt="">
+<!-- <div class="animals">
+            <img class="animal inactive" style="top: 52vw; left: 80vw;" src="images/Turkey.png" alt="">
             <img class="animal" style="top: 46vw; left: 20vw;" src="images/Camel.png" alt="">
             <img class="animal" style="top: 56vw; left: 42vw;" src="images/monkey.png" alt="">
             <img class="animal" style="top: 33vw; left: 70vw;" src="images/zebra.png" alt="">
             <img class="animal" style="top: 35vw; left: 34vw;" src="images/lion.png" alt="">
-        
-        </div>
+        </div> -->
     </div>
 </main>
 
@@ -67,28 +64,32 @@
 </div>
 
 <footer>
-    <div class="" style="overflow: auto; white-space: nowrap">
-        <img src="images/lion.jpg" alt="">
-        <img src="images/bear.jpg" alt="">
-        <img src="images/elephant.jpg" alt="">
-        <img src="images/lion.jpg" alt="">
-        <img src="images/lion.jpg" alt="">
-        <img src="images/lion.jpg" alt="">
-        <img src="images/lion.jpg" alt="">
+    <div style="overflow: auto; white-space: nowrap">
+        <img id="lion" class="inactive" src="images/lion.png" alt="">
+        <img id="camel" class="inactive" src="images/Camel.png" alt="">
+        <img id="monkey" class="inactive" src="images/monkey.png" alt="">
+        <img id="turkey" class="inactive" src="images/Turkey.png" alt="">
+        <img id="zebra" class="inactive" src="images/zebra.png" alt="">
+        <img id="bison" class="inactive" src="images/bison.png" alt="">
+        <img id="elephant" class="inactive" src="images/elephant_1f418.png" alt="">
+        <img id="otter" class="inactive" src="images/otter_1f9a6.png" alt="">
+        <img id="crocodile" class="inactive" src="images/crocodile_1f40a.png" alt="">
+        <img id="seal" class="inactive" src="images/seal_1f9ad.png" alt="">
     </div>
 </footer>
 
-
 <style>
-
-    .animal{
+    .animal {
         position: absolute;
-        width: 3vw;    
-
+        width: 3vw;
+    }
+    .inactive{
+        filter: brightness(30%);
+        pointer-events: none;
     }
     footer img{
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
         margin: 5vw 0 0 1vw;
     }
     .button{
